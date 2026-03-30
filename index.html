@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Olympics Countdown</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- background canvas (interactive) -->
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <!-- centered content -->
+  <main class="center">
+    <div class="card">
+      <h1>Countdown to LA 2028</h1>
+
+      <div class="countdown" aria-live="polite">
+        <div class="unit">
+          <div class="value" id="days">0</div>
+          <div class="label">Days</div>
+        </div>
+        <div class="unit">
+          <div class="value" id="hours">00</div>
+          <div class="label">Hours</div>
+        </div>
+        <div class="unit">
+          <div class="value" id="minutes">00</div>
+          <div class="label">Minutes</div>
+        </div>
+        <div class="unit">
+          <div class="value" id="seconds">00</div>
+          <div class="label">Seconds</div>
+        </div>
+      </div>
+
+      <div class="meta" id="note">Tap/click anywhere to create particles.</div>
+      <div class="target" id="targetDisplay"></div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
