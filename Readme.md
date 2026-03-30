@@ -2,7 +2,7 @@
 
 ## 🚀 Description
 This is a dynamic web-based countdown timer with an interactive particle background.  
-It displays the remaining time until a target date and includes engaging visual effects using Canvas API.
+It displays the remaining time until a target date and includes engaging visual effects using the Canvas API.
 
 ---
 
@@ -16,17 +16,17 @@ It displays the remaining time until a target date and includes engaging visual 
 ---
 
 ## 🛠 Tech Stack
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
-- Canvas API
+- HTML  
+- CSS  
+- JavaScript (Vanilla JS)  
+- Canvas API  
 
 ---
 
 ## ⚙️ How It Works
-- Calculates time difference between current date and target date
-- Updates UI every second using JavaScript
-- Uses Canvas for animations and particle effects
+- Calculates time difference between current date and target date  
+- Updates UI every second using JavaScript  
+- Uses Canvas for animations and particle effects  
 
 ---
 
